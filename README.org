@@ -1,0 +1,21 @@
+** zkill
+Kill a program by its PID or name on GNU/Linux
+
+** Usage
+Run =zkill -h= to get this information.
+#+begin_src text
+zkill
+usage:
+  --pid/-p       <pid>   - terminate a process by its PID
+  --name/-n      <name>  - terminate a process by its name
+  --exact/-e     <name>  - match with exact name only
+  --list/-l              - list all process names
+  --status/-y[y] <code>  - display the meaning of status code(s)
+  --help/-h              - print this help menu
+
+options:
+  --signal/-s <signal>   - name of the signal to send
+  --rec/-r               - recursive search of a process name
+  --noargs/-a            - split and ignore the process arguments
+  --exact/-e             - match with exact name as an option
+#+end_src
